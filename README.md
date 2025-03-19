@@ -5,7 +5,7 @@ This repository provides an implementation of the techniques introduced in the p
 
 ### Key Innovations:
 1. **Removal of MLP layers:** Significantly reduces the number of trainable parameters. 
-2. **Collapsing matrices:** Combines query-key and omiting value-projection matrices for streamlined architecture. ($ W_{qk}+noW_{v}W_{o} $ )
+2. **Collapsing matrices:** Combines query-key and omiting value-projection matrices for streamlined architecture. ($W_{qk}+noW_{v}W_{o}$ )
 3. **Symmetric similarity matrices:** Enhances attention efficiency with fewer parameters. (symmetry)
 
 These modifications achieve up to **90% reduction in parameters** while delivering competitive results on popular benchmarks, including MNIST, CIFAR-10, and ImageNet. This repository demonstrates how these techniques can be applied to build lightweight and efficient transformer models.  
